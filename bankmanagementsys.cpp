@@ -10,7 +10,7 @@ class BankAccount
     char name[50];
     char type;
 
-public:
+public:		//aman is an loser
     void create_account();      //this function will create user
     void show_account();        //this fuction show the created user information
     void modify();              //this funcion will modify the user data
@@ -64,7 +64,7 @@ void BankAccount::draw(int x)
 }
 void BankAccount::report()
 {
-    cout << acno << setw(10) << " " << name << setw(10) << " " << type << setw(7) << " " << deposite << endl;
+    cout << acno << setw(10) << " " << name << setw(10) << " " << type << setw(7) << " " << deposite << endl;	//aman do u think youcan do anything aman="YES I CAN"
 }
 void BankAccount::returnacno()
 {
